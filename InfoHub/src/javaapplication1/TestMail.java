@@ -21,9 +21,9 @@ public class TestMail {
             MailSender send = new MailSender();
             Session s = send.getGMailSession("mail@dit.education", "Mail2017+1");
 
-            send.postMail(s, "goetz.winterfeldt@th-deg.de", "nix", "nix");
+            send.postMail(s, "precha.saeheng@outlook.com", "Betreff", "YOOOO BOOOOI");
             
-            SMSSender.sendSMS("und tschuees");
+            SMSSender.sendSMS("Du bist ja richtig heiß!");
             
         } catch (Exception e) {
             System.out.println(e);
